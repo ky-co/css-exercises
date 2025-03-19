@@ -32,6 +32,11 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -44,11 +49,6 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
-
-.links {
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 ul {
